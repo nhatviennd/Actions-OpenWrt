@@ -172,7 +172,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name:  ${{ steps.tag.outputs.release_tag }}_xiaomi_mi-router-3g
+        name: ${{ steps.tag.outputs.release_date }} xiaomi_mi-router-3g_精简版
+        tag_name:  ${{ steps.tag.outputs.release_tag }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
