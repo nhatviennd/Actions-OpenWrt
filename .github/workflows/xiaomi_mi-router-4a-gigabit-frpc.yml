@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: xiaomi_mi-router-4a-gigabit-frpc
+name: 小米4A千兆版【ssrplus+frpc】
 
 on:
   repository_dispatch:
