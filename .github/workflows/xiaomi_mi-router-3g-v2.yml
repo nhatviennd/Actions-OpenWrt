@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: xiaomi_mi-router-3g-v2
+name: 小米3GV2版
 
 on:
   repository_dispatch:
