@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: xiaomi_redmi-ac2100-immortalwrt
+name: 红米ac2100-immortalwrt版
 
 on:
   repository_dispatch:
