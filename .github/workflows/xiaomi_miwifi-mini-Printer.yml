@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: xiaomi_miwifi-mini
+name: xiaomi_miwifi-mini-Printer
 
 on:
   repository_dispatch:
@@ -157,7 +157,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        name: ${{ steps.tag.outputs.release_date }} xiaomi_miwifi-mini
+        name: ${{ steps.tag.outputs.release_date }} 小米mini-打印机+网络存储
         tag_name: ${{ steps.tag.outputs.release_tag }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
