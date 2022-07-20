@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: friendlyarm_nanopi-r2s全功能版
+name: nanopi-r2s全功能版
 
 on:
   repository_dispatch:
