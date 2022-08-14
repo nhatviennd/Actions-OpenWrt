@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: nanopi-r2s全功能版
+name: nanopi-r2s
 
 on:
   repository_dispatch:
@@ -157,7 +157,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        name: ${{ steps.tag.outputs.release_date }} friendlyarm_nanopi-r2s全功能版
+        name: ${{ steps.tag.outputs.release_date }} friendlyarm_nanopi-r2s
         tag_name:  ${{ steps.tag.outputs.release_tag }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
